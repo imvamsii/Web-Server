@@ -1,0 +1,25 @@
+#Powershell
+cd go 
+cd src
+cd go-server
+code
+
+go build 
+go run main.go
+Server starting at port 8080
+
+
+
+#Browser
+
+localhost:8080
+Static Website
+
+localhost:8080/hello
+Hello
+
+localhost:8080/form.html
+A form opened; filled and submitted. Then,
+POST request successful
+Name = Vamsi Krishna
+Address = Mystic Grill, Covington, Georgia.
